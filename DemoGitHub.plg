@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DemoGitHub - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/DemoGitHub.res" /d "_DEBUG" /d "_AFXDLL" "D:\C++公用文件夹\My Projects\DemoGitHub\DemoGitHub.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPEB02.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DemoGitHub.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\C++公用文件夹\My Projects\DemoGitHub\DemoGitHub.cpp"
+"D:\C++公用文件夹\My Projects\DemoGitHub\DemoGitHubDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPEB02.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPEB03.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/DemoGitHub.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\C++公用文件夹\My Projects\DemoGitHub\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPEB03.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DemoGitHub.pdb" /debug /machine:I386 /out:"Debug/DemoGitHub.exe" /pdbtype:sept  ".\Debug\DemoGitHub.obj" ".\Debug\DemoGitHubDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\DemoGitHub.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DemoGitHub.cpp
+DemoGitHubDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DemoGitHub.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
