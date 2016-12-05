@@ -1,22 +1,25 @@
-#第一次使用git，命令什么的都是百度的
-#基本用到的命令就这几个
-##创建本地仓库并初始化
-##新建本地仓库文件夹
-##进入文件夹右键打开git bash here
-##shell中执行git init进行本地仓库初始化
-##shell初始化时一般添加touch README.md
-##本地仓库改动后同步到github
-
-
-##后期一般通过git add .来添加该文件夹中所有文件，也可git add XXX来添加自定文件或文件夹
-##git commit -m "Description of this commit"来为本次commit添加说明
-##git push -u origin master来将本地仓库上步添加的文件改动同步到github托管仓库
-
+#第一次使用git，命令什么的都是百度的，基本用到的命令就这几个
+##1.创建本地仓库并初始化
+##2.新建本地仓库文件夹
+##3.进入文件夹右键打开git bash here
+##4.shell中执行git init进行本地仓库初始化
+##5.shell初始化时一般添加touch README.md
+##6.本地仓库改动后同步到github
+#
+#
+#如何同步到云端仓库
+##1.后期一般通过git add .来添加该文件夹中所有文件，也可git add XXX来添加自定文件或文件夹
+##2.git commit -m "Description of this commit"来为本次commit添加说明
+##3.git push -u origin master来将本地仓库上步添加的文件改动同步到github托管仓库
+#
+#
 #对已有commit设置标签
-##git tag -a v1.20 4858e55 -m "完成生成xz,yz面剪刀撑节点"
-##-a后是标签名称，-m后是该tag的注释
+##1.git tag -a v1.20 4858e55 -m "完成生成xz,yz面剪刀撑节点"
+###-a后是标签名称，-m后是该tag的注释
+#
+#
 #默认情况下，git push 并不会把标签传送到远端服务器上，只有通过显式命令才能分享标签到远端仓库。其命令格式如同推送分支，运行git push origin [tagname] 即可
-##git push origin v1.5
+##1.git push origin v1.5
 
 
 #例如通过VC创建一个项目，文件夹名为DemoBridge，打算将里面所有文件放到远端仓库，此时
@@ -31,5 +34,6 @@
 ###[git commit -m "Changes log"]
 ###[git push -u origin master]
 ##三条命令即可
-
+#
+#
 #仓库文件夹中的.git文件夹放置仓库属性文件，不要随意移动修改
